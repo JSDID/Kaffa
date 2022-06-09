@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content=" Краща кав'ярня в Києві">
+  <meta name="keywords" content="Кав'ярня Kaffa">
+  <meta name="robots" content="Кав'ярня Kaffa">
+  <meta name="author" content="Alexsander Dolinsky">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<title>Кав'ярня Kaffa</title>
+	<style>
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+		}
+
+		.first {
+			min-height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: relative;
+		}
+		.first__video {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+	</style>
+</head>
+<body>
+	<section class="first">
+		<video src="video.mp4" playsinline muted autoplay loop class="first__video"></video>
+	</section>
+</body>
+</html>
